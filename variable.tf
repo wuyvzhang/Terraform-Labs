@@ -15,3 +15,7 @@ variable "rg" {
     description = "Default Azure Resource Group Name"
     default = "TF-RG01"
 }
+
+variable "weblocations" {
+    default = ["southeastasia", "eastus2", "centralindia"]
+}
